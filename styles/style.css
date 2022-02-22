@@ -1,0 +1,82 @@
+/* commont styles or utalities */
+body{
+    font-family: 'Yeseva One', cursive;
+    background-color: #E5E5E5;
+}
+h1{
+    font-size: 60px;
+}
+.orange-color{
+    color:#FFAD5A;
+
+
+}
+.olive-color{
+    color: olivedrab;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    margin:50px;
+}
+.half-width img{
+    width:80%;
+}
+p{
+    text-align:justify;
+}
+.develop-Bg{
+    background-image: url(images/shapes/shape-1.png);
+}
+.global-Bg{
+    background-image: url(images/shapes/shape-1.png)
+}
+/*------- focus area style --------*/
+.link-button{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 12px; 
+    color:white;
+    font-weight:bold;
+    border-radius:5px;
+ }
+/*------- mission area  style-------- */
+.center{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size:48px;
+}
+.mission-item{
+    width:27%;
+    /* box-shadow:5px 5px 20px rgb(78, 82, 70);  */
+    /* border: 1px solid white; */
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 10px;
+    border-radius: 26px;
+    width:360px;
+    height: 376px;
+
+}
+.mission-item img{
+    width:50%;
+    
+}
+.mission-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position:left;
+}
+ #mission{
+    background: rgba(79, 157, 166, 0.1);
+} 
+#vission{
+    background: rgba(255, 89, 89, 0.1);
+
+}
+#goals{
+    background: #FFF4D6;
+}
