@@ -1,10 +1,16 @@
 /* commont styles or utalities */
 body{
-    font-family: 'Yeseva One', cursive;
-    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #E5E5E5; */
+    
+}
+main{
+    margin-left: 156px;
+    margin-right: 156px;
 }
 h1{
-    font-size: 60px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 48px;
 }
 .orange-color{
     color:#FFAD5A;
@@ -28,13 +34,26 @@ h1{
 p{
     text-align:justify;
 }
-.develop-Bg{
-    background-image: url(images/shapes/shape-1.png);
+#button-up{
+    margin-bottom: 20px;
 }
-.global-Bg{
-    background-image: url(images/shapes/shape-1.png)
+#button-down{
+    margin-top: 35px;
 }
+.center{
+    text-align: center;
+    font-size:48px;
+}
+
 /*------- focus area style --------*/
+.focus-border{
+    border-left: 7px solid;
+    border-image:linear-gradient(#FF5959, #FF5959);
+    border-radius: 5px;
+    border-image-slice: 1;
+    font-family: 'Yeseva One', cursive;
+    font-size: 48px;
+}
 .link-button{
     text-decoration: none;
     background-color: #FF5959;
@@ -42,17 +61,12 @@ p{
     color:white;
     font-weight:bold;
     border-radius:5px;
+    margin-top: 20px;
+    margin-bottom:50px;
  }
 /*------- mission area  style-------- */
-.center{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-size:48px;
-}
 .mission-item{
     width:27%;
-    /* box-shadow:5px 5px 20px rgb(78, 82, 70);  */
-    /* border: 1px solid white; */
     margin-left: 3%;
     margin-right: 3%;
     padding-left: 10px;
@@ -65,11 +79,6 @@ p{
     width:50%;
     
 }
-.mission-area{
-    background-image: url(images/exp-bg.png);
-    background-repeat:no-repeat;
-    background-position:left;
-}
  #mission{
     background: rgba(79, 157, 166, 0.1);
 } 
@@ -80,3 +89,36 @@ p{
 #goals{
     background: #FFF4D6;
 }
+/*----------- develop section -----------*/
+.develop-Bg{
+    background-image: url(images/shapes/shape-1.png);
+    
+    
+}
+/*----------- global section -----------*/
+.global-Bg{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat:no-repeat;
+    background-position:right;
+}
+/*------ footer styles -------*/
+.footer{
+    text-align: center;
+    background-image:linear-gradient(90deg,rgb(7, 2, 34), 
+    rgb(5, 3, 14) ) ;
+    color: white;
+    font-weight: bold;
+    height: 225px;
+    margin-left:0;
+    margin-right:0;
+}
+.footer img{
+    float:inline;
+    height: 50px;
+    width: 50px;
+}
+#footer{
+  text-align: center;
+  font-weight:bold;
+}
+
