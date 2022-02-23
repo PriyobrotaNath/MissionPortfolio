@@ -91,7 +91,13 @@ p{
 }
 /*----------- develop section -----------*/
 .develop-Bg{
-    background-image: url(images/shapes/shape-1.png);
+    background-image: url(images/shapes/shape.png);
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size: 227px 227px;
+
+    
+
     
     
 }
@@ -100,6 +106,8 @@ p{
     background-image: url(images/shapes/shape-1.png);
     background-repeat:no-repeat;
     background-position:right;
+    background-size: 227px 227px;
+    
 }
 /*------ footer styles -------*/
 .footer{
